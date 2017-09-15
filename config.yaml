@@ -35,7 +35,7 @@ params:
   maxbin: -plotmarker
   metaphlan2:
     metaphlan2_dir: /home/jgsanders/git_sw/metaphlan2
-  shogun: --utree_indx /home/qiz173/Databases/SHOGUN/annotated/utree/stdb.ctr
+  shogun: /home/a3tripat/test_shogun/shogun/bin/utree-search_gg /home/a3tripat/test_shogun/shogun/utree/genomes.small.gg.ctr
 resources:
   centrifuge_base: /home/jgsanders/miniconda/envs/anvio2/centrifuge
   centrifuge_models: /home/jgsanders/miniconda/envs/anvio2/centrifuge/b+h+v/b+h+v

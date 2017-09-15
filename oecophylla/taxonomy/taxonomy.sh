@@ -3,8 +3,7 @@ conda env create --name shotgun-kraken -f shotgun-kraken.yaml
 
 # currently shogun is a hack, running the install script until we
 # have stable conda install
-conda env create --name shotgun-shogun -f shotgun-shogun.yaml
-
+conda env create --file /home/a3tripat/test_shogun/shogun/environment.yml
 source activate shotgun-shogun
 
 echo $CONDA_PREFIX
